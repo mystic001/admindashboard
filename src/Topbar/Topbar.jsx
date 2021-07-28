@@ -24,7 +24,7 @@ function Topbar() {
                     <Language/>
                     </div>
                     
-                    <img className = "topbarImage" src = "https://cdn.pixabay.com/photo/2021/07/02/03/19/panpipe-6380762__340.jpg"></img>
+                    <img className = "topbarImage" src = "https://cdn.pixabay.com/photo/2021/07/02/03/19/panpipe-6380762__340.jpg" alt = "images"></img>
                     
                 </div>
             </div>
