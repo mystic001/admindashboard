@@ -1,0 +1,29 @@
+.featuredupdatesContainer{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.featuredContent{
+    width:30%;
+    height:150px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    border-radius: 26px 26px 26px 26px;
+-webkit-border-radius: 26px 26px 26px 26px;
+-moz-border-radius: 26px 26px 26px 26px;
+
+box-shadow: 10px 5px 11px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 5px 11px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 5px 11px 0px rgba(0,0,0,0.75);
+}
+.featuredContentdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

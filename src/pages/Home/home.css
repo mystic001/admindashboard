@@ -1,0 +1,14 @@
+.homeContainer{
+    flex:4;
+    color:green;
+    height:calc(100vh - 50px);
+    padding: 20px;
+}
+
+.homeWrapper{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+
+}
