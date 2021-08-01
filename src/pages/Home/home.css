@@ -1,8 +1,8 @@
 .homeContainer{
     flex:4;
-    color:green;
     height:calc(100vh - 50px);
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .homeWrapper{
@@ -12,3 +12,10 @@
     height:100%;
 
 }
+
+.widgetContainer{
+    display:flex;
+    padding:20px;
+   
+}
+
