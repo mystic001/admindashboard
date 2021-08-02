@@ -2,6 +2,7 @@
     display:flex;
 }
 
-.otherpages{
-    flex:4
+.home{
+    flex:4 ;
+    background-color: bisque;
 }
