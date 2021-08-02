@@ -4,9 +4,7 @@
     position: sticky;
     height: calc(100vh - 50px);
     background-color:rgb(251,251,255);
-    box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.21);
--webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.21);
--moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.21);
+;
 
 }
 

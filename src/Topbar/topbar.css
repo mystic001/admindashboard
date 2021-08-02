@@ -2,9 +2,6 @@
 width:100vw;
 height:50px;
 z-index: 999;
-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.21);
--webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.21);
--moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.21);
 
 }
 
