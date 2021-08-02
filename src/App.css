@@ -1,0 +1,7 @@
+.bodyContainer{
+    display:flex;
+}
+
+.otherpages{
+    flex:4
+}
