@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-.homeContainer{
-    flex:4;
-    height:calc(100vh - 50px);
-    padding: 20px;
-    overflow-x: hidden;
-}
-
-.homeWrapper{
-    display:flex;
-    flex-direction:column;
-    width:100%;
-    height:100%;
-
-}
-
-.widgetContainer{
-    display:flex;
-    padding:20px;
-   
-}
-
-=======
 .home{
     background-color: blueviolet;
 }
->>>>>>> admindashboard/clouddevice
