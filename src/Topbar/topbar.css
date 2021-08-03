@@ -8,8 +8,7 @@ z-index: 999;
 .topbarWrapper{
 display: flex;
 height:100%;
-max-width: 1200px;
-margin: 0 auto;
+padding: 0 20px;
 align-items:center;
 justify-content:space-between;
 
