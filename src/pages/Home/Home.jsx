@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import './home.css'
 import Featuredupdates from '../../components/feauredupdates/Featuredupdates'
@@ -25,3 +26,16 @@ function Home() {
 }
 
 export default Home
+=======
+import './home.css';
+
+function Home() {
+    return (
+        <div>
+            Welcome home
+        </div>
+    )
+}
+
+export default Home
+>>>>>>> admindashboard/clouddevice
