@@ -10,7 +10,7 @@ function Lgwidget() {
                 <div class="grid-item"><h4>Amount</h4></div>
                 <div class="grid-item"><h4>Status</h4></div>
                 <div class="grid-item">
-                <div className = "flex">
+                <div className = "spread">
                 <img src = "https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907__340.jpg" alt ="tell all the boys"></img>
                 <span>Susan Carol</span>
                 </div>
@@ -23,11 +23,11 @@ function Lgwidget() {
                 <div class="grid-item">
                 <div className = "flex"><span>$1200</span></div></div>
                 <div class="grid-item">
-                <div className = "flex"><span>Approved</span></div></div>
+                <div className = "flex statusApproved"><span>Approved</span></div></div>
                 
 
                 <div class="grid-item">
-                <div className = "flex">
+                <div className = "spread">
                 <img src = "https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907__340.jpg" alt ="tell all the boys"></img>
                 <span>Susan Carol</span>
                 </div>
@@ -40,10 +40,10 @@ function Lgwidget() {
                 <div class="grid-item">
                 <div className = "flex"><span>$1200</span></div></div>
                 <div class="grid-item">
-                <div className = "flex"><span>Approved</span></div></div>
+                <div className = "flex statusDeclined"><span>Declined</span></div></div>
 
                 <div class="grid-item">
-                <div className = "flex">
+                <div className = "spread">
                 <img src = "https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907__340.jpg" alt ="tell all the boys"></img>
                 <span>Susan Carol</span>
                 </div>
@@ -56,10 +56,10 @@ function Lgwidget() {
                 <div class="grid-item">
                 <div className = "flex"><span>$1200</span></div></div>
                 <div class="grid-item">
-                <div className = "flex"><span>Approved</span></div></div>
+                <div className = "flex statusPending"><span>Pending</span></div></div>
 
                 <div class="grid-item">
-                <div className = "flex">
+                <div className = "spread">
                 <img src = "https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907__340.jpg" alt ="tell all the boys"></img>
                 <span className = "gridusername">Susan Carol</span>
                 </div>
@@ -72,7 +72,7 @@ function Lgwidget() {
                 <div class="grid-item">
                 <div className = "flex"><span>$1200</span></div></div>
                 <div class="grid-item">
-                <div className = "flex"><span>Approved</span></div></div>
+                <div className = "flex statusApproved"><span>Approved</span></div></div>
             </div>
         </div>
     )
