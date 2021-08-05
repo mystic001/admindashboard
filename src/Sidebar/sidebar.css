@@ -4,7 +4,6 @@
     position: sticky;
     height: calc(100vh - 50px);
     background-color:rgb(251,251,255);
-;
 
 }
 
@@ -46,7 +45,10 @@ padding: 10px 20px;
 }
 .sidebarmenu ul{
     list-style:none;
-  
+}
+
+.remlin{
+    text-decoration: none;
 }
 
 .sideBarIcon{
