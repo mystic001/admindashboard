@@ -1,12 +1,28 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { DataGrid } from '@material-ui/data-grid';
 import './users.css'
+import {DeleteOutline} from '@material-ui/icons';
+import {rows} from '../../dummyData'
+import { Link } from 'react-router-dom';
+
+//import {Delete} from './@material-ui/icons'
 function Users() {
+
+  const [dataRow, setDataRow] = useState(rows);
+
+  const handledelete = ()=> setDataRow(()=> console.log("stop here"));
+  
 const columns = [
-  { field: 'id', headerName: 'ID', width: 90 },
+  { field: 'id', headerName: 'ID', width: 150 },
   {
     field: 'username',
     headerName: 'Username',
+    renderCell: ({row}) => {
+      return (<div className="usernameImage">
+        <img src= {row.avatar} alt = "view feom tavle"/>
+        <span className="name">{row.username}</span>
+      </div>)
+    },
     width: 200,
     
   },
@@ -27,35 +43,25 @@ const columns = [
     sortable: false,
     width: 160,
   },
+  {
+    field: 'delete',
+    headerName: 'Delete',
+    sortable: false,
+    width: 160,
+    renderCell:({row}) => (<><div className="userdelete">
+      <Link to = {`/user/${row.id}`}>
+      <button className="bt">Edit</button>
+      </Link>
+      <DeleteOutline style ={{marginLeft:20}} onClick = {()=>handledelete }/></div></>)
+
+  },
 ];
 
-const rows = [
-  { id: 1, 
-    username: 'Jon Snow', 
-    avatar: 'https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907_960_720.jpg', 
-    email: "genn@nevadaibm.com",
-    status:'active',
-    transaction:'$120.00'
-},
-{ id: 2, 
-    username: 'Jon Snow', 
-    avatar: 'https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907_960_720.jpg', 
-    email: "genn@nevadaibm.com",
-    status:'active',
-    transaction:'$120.00'
-},
-{ id: 3, 
-    username: 'Jon Snow', 
-    avatar: 'https://cdn.pixabay.com/photo/2021/07/14/19/18/woman-6466907_960_720.jpg', 
-    email: "genn@nevadaibm.com",
-    status:'active',
-    transaction:'$120.00'
-},
-];
+
     return (
         <div className="usersContainer">
             <DataGrid
-        rows={rows}
+        rows={dataRow}
         columns={columns}
         pageSize={5}
         checkboxSelection
