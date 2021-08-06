@@ -1,0 +1,27 @@
+.userContainer{
+    flex:4;
+    height:calc(100vh - 50px);
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.userWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userEdit{
+    font-size: 25px;
+}
+
+.userWrapper button{
+    border: none;
+    font-size: 16px;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: teal;
+}

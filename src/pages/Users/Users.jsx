@@ -10,7 +10,7 @@ function Users() {
 
   const [dataRow, setDataRow] = useState(rows);
 
-  const handledelete = ()=> setDataRow(()=> console.log("stop here"));
+  const handledelete = (id)=> setDataRow(()=> dataRow.filter((item)=> item.id !== id ));
   
 const columns = [
   { field: 'id', headerName: 'ID', width: 150 },
@@ -52,7 +52,9 @@ const columns = [
       <Link to = {`/user/${row.id}`}>
       <button className="bt">Edit</button>
       </Link>
-      <DeleteOutline style ={{marginLeft:20}} onClick = {()=>handledelete }/></div></>)
+      <DeleteOutline style ={{marginLeft:20,
+      color:"red",
+    cursor:"pointer"}} onClick = {()=>handledelete(row.id) }/></div></>)
 
   },
 ];
