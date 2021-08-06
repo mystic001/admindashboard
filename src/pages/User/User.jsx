@@ -4,7 +4,8 @@ function User() {
     return (
         <div className = "userContainer">
             <div className="userWrapper">
-                <div className = 'userEdit'><h3>Edit User</h3></div>
+                <div className = 'userEdit'>
+                    <h3>Edit User</h3></div>
                 
                 <button>Create</button>
             </div>
