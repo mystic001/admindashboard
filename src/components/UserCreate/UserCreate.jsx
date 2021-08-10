@@ -1,8 +1,9 @@
 import './userCreate.css'
+import Edit from "../Edit/Edit"
 function UserCreate() {
     return (
         <div className = "userCreate">
-         This is create
+        <Edit/>
         </div>
     )
 }

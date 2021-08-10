@@ -1,0 +1,66 @@
+.editContainer{
+    height: 100%;
+    overflow: hidden;
+}
+
+.editContainer h4{
+font-size: 30px;
+}
+
+
+.formPicAndUpdate{
+    display: flex;
+    margin-top: 20px;
+}
+
+.form{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picandupdate{
+flex : 1; 
+display: flex;
+padding-bottom: 40px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.picandupdate img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+}
+
+.formInput{
+    display: flex;
+   margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.formInput input{
+    border: none;
+    height: 30px;
+    width: 80%;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+
+.updateContainer button{
+    color: white;
+    text-align: center;
+    
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: blue;
+    
+}
